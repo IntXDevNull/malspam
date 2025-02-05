@@ -44,34 +44,42 @@ All cases follow the same process:
    ```bash
    $ 7z x stage1.7z -pinfected
 
-Your mission (should you choose to accept it)
+# Your Mission (Should You Choose to Accept It)
+
 The goal is to investigate the file within to determine:
 
-Is it malicious? If so find:
-IOCs
-URLS / IPs
-filepaths
-regkeys
-other relevant IOCs to use for detection/remediation
-Repeat this for all stages until you end up with either a congratulatory text-file, or a .exe/.dll.
-Tips and tricks
+- Is it malicious? If so, find:
+  - IOCs
+  - URLs / IPs
+  - filepaths
+  - regkeys
+  - other relevant IOCs to use for detection/remediation
+
+Repeat this for all stages until you end up with either a congratulatory text-file or a `.exe`/`.dll`.
+
+## Tips and Tricks
+
 It is advised to:
 
-hash files before starting analysis. (keeps a clear trail, and helps detect unwanted alterations)
-note steps taken, and commands run for repeatability
-Follow on stages
-If the folder contains a stage2.7z, og other variants they will always unpack with the downloadURL as the password. E.g. stage2.7z for putty.msi would unpack as follows: $7z x stage2.7z -phttps://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi
+- Hash files before starting analysis. (Keeps a clear trail, and helps detect unwanted alterations)
+- Note steps taken, and commands run for repeatability.
 
-Intended order:
-demo
-1_powershell
-2_vbs
-3_lnk
-4_doc
-5_excel
-HTA
-bat
-JS
-onenote
-ppt
-tasks
+## Follow on Stages
+
+If the folder contains a `stage2.7z` or other variants, they will always unpack with the `downloadURL` as the password. E.g., `stage2.7z` for `putty.msi` would unpack as follows:  
+`$7z x stage2.7z -phttps://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi`
+
+## Intended Order:
+
+1. demo
+2. 1_powershell
+3. 2_vbs
+4. 3_lnk
+5. 4_doc
+6. 5_excel
+7. HTA
+8. bat
+9. JS
+10. onenote
+11. ppt
+12. tasks
