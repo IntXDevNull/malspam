@@ -50,10 +50,10 @@ The goal is to investigate the file within to determine:
 
 - Is it malicious? If so, find:
   - IOCs
-  - URLs / IPs
-  - filepaths
-  - regkeys
-  - other relevant IOCs to use for detection/remediation
+  -- URLs / IPs
+  -- filepaths
+  -- regkeys
+  -- other relevant IOCs to use for detection/remediation
 
 Repeat this for all stages until you end up with either a congratulatory text-file or a `.exe`/`.dll`.
 
