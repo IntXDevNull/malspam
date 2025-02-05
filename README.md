@@ -28,7 +28,7 @@ The following (non-exhaustive) list of tools will be used during the workshop:
 - **Wireshark** - Network protocol analyzer used to capture and inspect data packets (included in Remnux)
 - **MSItools** - For working with MSI files, including extracting and modifying installation packages (included in Remnux)
 - **Bless** - Hex editor used for editing/inspecting binary files (Install through Remnux repo's: bless)
-- **
+- **Onedump.py** - Working with one-note files (Fetch from: https://github.com/DidierStevens/Beta/blob/master/onedump.py)
 - **Cyberchef** - Decoding payloads etc. (https://gchq.github.io/CyberChef/)
 
 *Note:* You may substitute these tools with alternatives, but demonstrations are based on using the above tools.
@@ -47,8 +47,8 @@ All cases follow the same process:
    Your mission (should you choose to accept it)
 The goal is to investigate the file within to determine:
 
-Is it malicious? If so find:
-IOCs
+1 - Is it malicious? If so find:
+2 - IOCs
 URLS / IPs
 filepaths
 regkeys
