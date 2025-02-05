@@ -30,7 +30,7 @@ The following (non-exhaustive) list of tools will be used during the workshop:
 - **Onedump.py** - Working with one-note files (Fetch from: https://github.com/DidierStevens/Beta/blob/master/onedump.py)
 - **Cyberchef** - Decoding payloads etc. (https://gchq.github.io/CyberChef/)
 
-*Note:* You may substitute these tools with alternatives, but demonstrations are based on using the above tools.
+*Note:* You may substitute these tools with alternatives or other ways of solving the different cases.
 
 ---
 
@@ -43,7 +43,7 @@ All cases follow the same process:
    ```bash
    $ 7z x stage1.7z -pinfected
 
-# Your Mission (Should You Choose to Accept It)
+# Your Mission
 
 The goal is to investigate the file within to determine:
 
