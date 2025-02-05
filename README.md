@@ -1,7 +1,7 @@
 # Malspam training
 
 **⚠️ Content has been cloned from https://github.com/helsecert/workshop_malspam and re-uploaded with permission from the owner**<br>
-**⚠️ Content is intended for EDUCATIONAL reasons only**<br>
+**⚠️ Content is intended for EDUCATIONAL purposes only**<br>
 
 This workshop is a hands-on introduction to malspam investigation.
 
