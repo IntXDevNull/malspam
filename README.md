@@ -1,8 +1,7 @@
-# Workshop Malspam
+# Malspam training
 
-**By Norwegian CERT for Health and Municipalities**<br>
-**Content has been cloned from https://github.com/helsecert/workshop_malspam and re-uploaded with the permission from the owner**<br>
-**Content is intended for EDUCATIONAL reasons**<br>
+**⚠️ Content has been cloned from https://github.com/helsecert/workshop_malspam and re-uploaded with permission from the owner**<br>
+**⚠️ Content is intended for EDUCATIONAL reasons only**<br>
 
 This workshop is a hands-on introduction to malspam investigation.
 
