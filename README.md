@@ -53,6 +53,7 @@ The goal is to investigate the file within to determine:
   - URLs / IPs
   - filepaths
   - regkeys
+  - binaries
 3. other relevant IOCs to use for detection/remediation
 
 Repeat this for all stages until you end up with either a congratulatory text-file or a `.exe`/`.dll`.
@@ -61,13 +62,16 @@ Repeat this for all stages until you end up with either a congratulatory text-fi
 
 It is advised to:
 
-- Hash files before starting analysis. (Keeps a clear trail, and helps detect unwanted alterations)
+- Hash files before starting analysis. (Keeps a clear trail, and helps detect unwanted alterations).
+- Filehashes can be added to virustotal to verify if there are records on the file.
+- Some examples may not be malicious, but appears as they are due to how different tools analyze its content.
 - Note steps taken, and commands run for repeatability.
 
-## Follow on Stages
+## NB!
 
 If the folder contains a `stage2.7z` or other variants, they will always unpack with the `downloadURL` as the password. E.g., `stage2.7z` for `putty.msi` would unpack as follows:  
 `$7z x stage2.7z -phttps://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi`
+These URL's are mostly dead, so this way it is possible to simulate a download of the file/payload.
 
 ## Intended Order:
 
