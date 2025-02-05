@@ -44,11 +44,11 @@ All cases follow the same process:
    ```bash
    $ 7z x stage1.7z -pinfected
 
-   Your mission (should you choose to accept it)
+Your mission (should you choose to accept it)
 The goal is to investigate the file within to determine:
 
-1 - Is it malicious? If so find:
-2 - IOCs
+Is it malicious? If so find:
+IOCs
 URLS / IPs
 filepaths
 regkeys
