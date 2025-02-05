@@ -37,7 +37,6 @@ The following (non-exhaustive) list of tools will be used during the workshop:
 ## 🚀 How to Use
 
 All cases follow the same process:
-
 1. **Unpack `stage1.7z`**  
    All Stage 1 samples are encrypted with the password `infected`. To decrypt, use:
    ```bash
